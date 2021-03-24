@@ -16,6 +16,7 @@ import './header.styles.scss';
         </div>
     )
 }*/
+//Componenente funcional, solo para mostrar info
 const Header = ({currentUser}) =>(
   <div className='header'>
       <Link className='logo-container' to='/'>
